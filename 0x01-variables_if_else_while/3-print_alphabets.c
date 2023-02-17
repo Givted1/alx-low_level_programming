@@ -1,11 +1,11 @@
 #include <stdio.h>
-
 /**
  * main - main block
  * Descrption: print the alphabet in lowercase
  * and the in uppercase, follow by a new line
  * Return: 0
  */
+
 int main(void)
 {
 	char c = 'a';
