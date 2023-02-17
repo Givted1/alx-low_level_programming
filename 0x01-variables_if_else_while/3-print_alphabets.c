@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
  * main - main block
  * Descrption: print the alphabet in lowercase
  * and the in uppercase, follow by a new line
  * return: 0
  */
-intmain(void)
+int main(void)
 {
 	char c = 'a';
 
@@ -14,6 +15,7 @@ intmain(void)
 		putchar(c);
 	}
 	c = 'A';
+
 	while (c <= 'Z')
 	{
 		putchar(c);
