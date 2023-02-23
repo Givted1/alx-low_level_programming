@@ -1,8 +1,3 @@
-/*
- * File: 104-fibonacci.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
 
 /**
@@ -53,4 +48,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-}	
+}
