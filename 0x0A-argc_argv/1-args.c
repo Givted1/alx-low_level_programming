@@ -1,20 +1,15 @@
-#include "msin.h"
 #include <stdio.h>
 
 /**
- * main - program that prints the number of arguments passed into it
- * @argc: argument count
- * @argv: argunment vector
+ * main - Prints the number of arguments passed to it.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
- * Return: int
+ * Return: Always 0.
  */
-
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-	if (argc > 0)
-	{
-		argv = argv;
-		printf("%d\n", argc - 1);
-	}
+	printf("%d\n", argc - 1);
+
 	return (0);
 }
