@@ -1,11 +1,16 @@
+/*
+ * File: 2-main.c
+ */
+
 #include <stdio.h>
 
 /**
- * main - prints the name of the file
+ * main - Prints the name of the file of the program
+ *        was compiled from, followed by a new line.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
-int ain(void)
+int main(void)
 {
 	printf("%s\n", __FILE__);
 
